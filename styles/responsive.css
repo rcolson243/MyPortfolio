@@ -1,0 +1,179 @@
+@media screen and (min-width: 1090px) {
+  .grill-competences {
+    grid-template: repeat(3, 80px) / repeat(2, 450px);
+  }
+}
+
+/* la partie responsive mobile */
+@media screen and (max-width: 820px) {
+    .section-nav {
+      border-bottom: #9CAFC7 solid 1px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  
+    .block-menu-hamburger {
+      width: 35px;
+      display: block;
+      cursor: pointer;
+    }
+  
+    .block-menu{
+      width: 200px;
+      height: 250px;
+      text-align: center;
+      display:flex;
+      flex-direction: column;
+      position: relative;
+      top: 135px;
+      /* left: 238px; */
+      background: #fff;
+      border-radius: 3px;
+
+      padding: 10px;
+      margin-top: 70px;
+      margin-right: 15px;
+      display: none;
+    }
+    .block-menu-visible {
+      display: flex;
+    }
+    .nav-menu-item {
+      margin-top: 10px;
+    }
+   
+    .nav-menu-item::after {
+      content: '';
+      display: none;
+    }
+
+    .section-header {
+      width: 100%;
+      height: 70%;
+      /* background-color: aqua; */
+      background-image: url("../images/br1.png");
+      background-position: center;
+      background-size: cover;
+      
+    }
+    .section-header .btn-download-cv {
+      display: none;
+    }
+
+    /* section about  */
+    .section-about .card-profil {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .card-profil .photo-profil {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin: 0 auto;
+      border: #9CAFC7 solid 5px;
+    }
+    .card-profil .about-text {
+      text-align: center;
+      width: 100%;
+      padding: 20px;
+    }
+    .about-text h3 {
+      font-size: 2rem;
+      padding-bottom: 20px;
+    }
+    .about-text p {
+      font-size: 1rem;
+      line-height: 30px;
+    }
+
+
+  .portfolio {
+    margin: 20px 80px;
+  }
+
+  .grilles-competences {
+    grid-template: repeat(6, 80px) / 600px ;
+  }
+  .barre-color {
+    width: 600px;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+  .grilles-competences {
+    grid-template: repeat(6, 80px) / 350px ;
+  }
+  .barre-color {
+    width: 350px;
+  }
+}
+
+
+  /* version mobile */
+  @media screen and (max-width: 420px) {
+    .section-header {
+      height: 60%;
+    }
+    .block-menu{
+      left: 80px;
+    
+  
+    }
+    .card-profil .about-text {
+      text-align: center;
+      width: 100%;
+      
+    }
+    .block-txt h1 {
+      font-size: 1.2rem;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+
+    /* section activity  */
+.section-activity {
+  height: auto;
+  background-image: url(https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80);
+  background-position: center bottom;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+ }
+
+.section-activity .activity-item {
+  height: 80px;
+  width: 80px;
+  background: none;
+  color: #fff;
+  border: 2px solid #9CAFC7;
+  margin: 30px;
+  padding: 30px;
+  line-height: 1.3rem;
+ }
+ .activity-item:hover { 
+  background-color: #7990ad81;
+ }
+
+  .projects-portfolio .card-project {
+    width: 380px;
+    
+    
+  }
+
+
+}
+
+/* media competences */
+
+
+  @media screen and (max-width: 330px) {
+    .block-menu{
+      left: 60px;
+    }
+
+  
+  }
