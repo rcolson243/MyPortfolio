@@ -121,7 +121,7 @@ ul li a, a {
   text-align: center;
 }
 .block-txt h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 60px;
   margin-bottom: 20px;
 }
@@ -161,7 +161,7 @@ ul li a, a {
 .card-profil .photo-profil {
   width: 400px;
   height: 400px;
-  background-image: url(/images/profils2.JPG);
+  background-image: url(../images/profils2.JPG);
   background-position: center;
   background-size: cover;
   /* margin-right: 50px; */
@@ -176,8 +176,14 @@ ul li a, a {
   padding: 20px;
 }
 
+.about-text h3 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
 .about-text p {
-  line-height: 1rem;
+  font-size:  1.3rem;
+  line-height: 40px;
 }
 
 .about-text .reseaux-social {
@@ -189,7 +195,7 @@ ul li a, a {
 
 .reseaux-social .social-item {
   /* border: 2px solid #DE8F82; */
-  width: 50px;
+  width: 40px;
   margin: 0 20px;
 }
 
@@ -197,7 +203,7 @@ ul li a, a {
   border-radius: 50%;
   background-color:#dbe9fa;
   width: 100%;
-  border: 2px solid #DE8F82;
+  border: 2px solid #de8e827d;
 }
 
 /* section activity  */
@@ -238,9 +244,9 @@ ul li a, a {
 }
 .projects-portfolio .card-project {
   width: 350px;
-  max-width: 450px; 
+  max-width: 400px; 
   min-width: 350px;
-  border-radius: 3px;
+  border-radius: 5px;
   overflow: hidden;
   margin: 20px;
   box-shadow: 0 4px 8px 0 rgba(129, 129, 129, 0.19), 0 6px 20px 0 rgba(129, 129, 129, 0.19);
@@ -259,18 +265,27 @@ ul li a, a {
   display: flex;
 }
 .btn {
-  background: #000;
-  color: #f1f1f1;
+  /* background: #000; */
+  color: #333;
   padding: 10px 20px;
   margin-right: 20px;
   font-size: 14px;
   text-align: center;
   margin-top: 20px;
   border-radius: 5px;
+  border: 1px #000 solid;
 }
 
 .btn-demo {
-  background: #DE8F82
+  background: #000;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  background: #9CAFC7;
+  border: none;
+  color: #fff;
 }
 
 /* section competences */
