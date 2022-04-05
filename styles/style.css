@@ -255,6 +255,7 @@ ul li a, a {
 .card-head a img {
   width:  100%;
   height: auto;
+  border-bottom: 1px solid #cad5e1c0;
 }
 
 .card-body {
