@@ -234,9 +234,7 @@ ul li a, a {
   
 }
 
-.citation::before {
-  content: "";
-}
+
 
 /* section portfolio  */
 
