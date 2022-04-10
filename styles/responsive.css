@@ -211,21 +211,21 @@
     }
 
     /* section citation */
-  .section-citation {
-  height: auto;
-  background-position: center bottom;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  
-  -webkit-clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 94%);
-clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 94%);
-  }
+    .section-citation {
+    height: auto;
+    background-position: center bottom;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    
+    -webkit-clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 94%);
+  clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 94%);
+    }
 
   .citation {
     
-    width: 200px;
+    width: 300px;
     
   }
 
