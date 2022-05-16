@@ -83,15 +83,14 @@
 
     .section-header {
       width: 100%;
-      height: 50%;
+      height: 60%;
       /* background-color: aqua; */
       background-image: url("../images/br1.png");
       background-position: center;
-      background-attachment: fixed;
+      /* background-attachment: fixed; */
       background-size: cover;
-      
     }
-    .section-header .btn-download-cv {
+    .section-header .btn-voir-plus {
       display: none;
     }
 
