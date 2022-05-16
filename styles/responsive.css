@@ -2,7 +2,6 @@
   .grill-competences {
     grid-template: repeat(3, 80px) / repeat(2, 450px);
   }
-  
 }
 
 @media screen and (max-width: 1065px) {
