@@ -54,6 +54,7 @@ ul li a, a {
   position: -webkit-sticky; /* Safari */
   position: fixed;
   top: 0;
+  border-bottom: #1C1E3D 1px solid;
 }
 .section-nav .logo-site {
   width: 50px;
