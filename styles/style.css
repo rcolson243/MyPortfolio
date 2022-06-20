@@ -51,6 +51,9 @@ ul li a, a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
+  top: 0;
 }
 .section-nav .logo-site {
   width: 50px;
