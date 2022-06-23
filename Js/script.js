@@ -3,7 +3,7 @@ const blockMenuItems  = document.querySelector('.block-menu');
 const navMenuItem = document.querySelectorAll('.nav-menu-item')
 
 btnMenuHamburger.addEventListener('click', () => {
-    //blockMenuItems.classList.toggle('block-menu-visible');
+    blockMenuItems.classList.toggle('block-menu-visible');
     blockMenuItems.style.display = 'block';
 })
 
